@@ -125,7 +125,6 @@ h2, h3 {
 
 .mesmalinha {
     display:flex;
-    /*justify-content:space-evenly;*/
     justify-content: center;
 }
 
