@@ -1,41 +1,39 @@
-/* Probelmas 
--fundo fica sobreponto os outros elementos do site 
--Botões "Projetos Pessoais" "Hobbies" e "Contato" não funcionam
--Alinhamento dos botões "Projetos Pessoais" "Hobbies" e "Contato" */
-
-* {
-    background-color: ;
-}
-.container {
-    text-align: center;
-    margin-top: 20px; 
+.head {
     background-color: rgb(11, 44, 11);
-}
-
-.profile {
-    background-color: rgb(11, 44, 11);
-    text-decoration: none;
     color: cornsilk;
 }
 
-.photo img {
-    border-radius: 50%; 
-    width: 150px; 
-    height: 150px; 
-    border: 2px solid cornsilk;
+
+body {
+    background-color: cornsilk;
 }
 
-.name {
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+
+.fundo {
     background-color: rgb(11, 44, 11);
+    color: cornsilk;
+    display: flex;
+    justify-content: center;
 }
 
-.name h1 
-{
-    margin-top: 10px; 
-    font-size: 24px; 
+
+.h2 {
+    height: 38px;
+    width: 135px;
+    text-align: center;
 }
 
-/* menu */
+.border {
+    border: 5px solid rgb(11, 44, 11); /* Largura, estilo e cor da borda */
+    border-radius: 10px;     /* Deixa a borda arredondada (opcional) */
+}
+
 nav {
     background-color: rgb(11, 44, 11);
     padding: 10px;
@@ -54,38 +52,21 @@ a {
 }
 
 a:hover {
-    color: #000000;
+    color: lightsalmon;
 }
 
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
 
-
-label {
-    max-width: 800px; 
-    margin: auto; 
-    color: rgb(11, 44, 11);
-}
-
-
-a {
-    display: flex;
+.mesmalinha {
+    display:flex;
+    /*justify-content:space-evenly;*/
     justify-content: center;
 }
 
-
-h2, h3 {
-    text-align: center;
+.mesmalinhaLI {
+    padding-right: 80px;
 }
 
-.fundo {
-    background-color: cornsilk;
-}
 
 .merriweather-light {
     font-family: "Merriweather", serif;
@@ -124,15 +105,12 @@ h2, h3 {
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: italic;
+    color: rgb(11, 44, 11);
+    text-align: center;
   }
 
-  .mesmalinha {
+.ol {
     display:flex;
     /*justify-content:space-evenly;*/
     justify-content: center;
 }
-
-.mesmalinhaLI {
-    padding-right: 80px;
-}
-  

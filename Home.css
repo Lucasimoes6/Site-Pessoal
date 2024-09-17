@@ -1,0 +1,135 @@
+
+ body {
+    background-color: cornsilk;
+ }
+.container {
+    text-align: center;
+    margin-top: 20px; 
+    background-color: rgb(11, 44, 11);
+}
+
+.profile {
+    background-color: rgb(11, 44, 11);
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.photo img {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px; 
+    border: 2px solid cornsilk;
+}
+
+.name {
+    background-color: rgb(11, 44, 11);
+}
+
+.name h1 
+{
+    margin-top: 10px; 
+    font-size: 24px; 
+}
+
+/* menu */
+nav {
+    background-color: rgb(11, 44, 11);
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:  cornsilk;
+}
+
+a:hover {
+    color: lightsalmon;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+label {
+    max-width: 800px; 
+    margin: auto; 
+    color: rgb(11, 44, 11);
+}
+
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+
+h2, h3 {
+    text-align: center;
+}
+
+.fundo {
+    background-color: cornsilk;
+}
+
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  rgb(11, 44, 11);
+    background-color:  cornsilk;
+  }
+  
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+.merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  
+.merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+  }
+
+.mesmalinha {
+    display:flex;
+    /*justify-content:space-evenly;*/
+    justify-content: center;
+}
+
+.mesmalinhaLI {
+    padding-right: 80px;
+}
+  

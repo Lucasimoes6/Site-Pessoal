@@ -1,0 +1,105 @@
+.head {
+    background-color: rgb(11, 44, 11);
+    color: cornsilk;
+}
+
+
+body {
+    background-color: cornsilk;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+
+.fundo {
+    background-color: rgb(11, 44, 11);
+    color: cornsilk;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+nav {
+    background-color: rgb(11, 44, 11);
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:  cornsilk;
+}
+
+a:hover {
+    color: lightsalmon;
+}
+
+
+
+.mesmalinha {
+    display:flex;
+    /*justify-content:space-evenly;*/
+    justify-content: center;
+}
+
+.mesmalinhaLI {
+    padding-right: 80px;
+}
+
+
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  rgb(11, 44, 11);
+    background-color:  cornsilk;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    color: rgb(11, 44, 11);
+  }
+  
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .border {
+    border: 5px solid rgb(11, 44, 11); /* Largura, estilo e cor da borda */
+    border-radius: 10px;     /* Deixa a borda arredondada (opcional) */
+    }   
